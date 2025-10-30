@@ -4,3 +4,6 @@ This project forecasts residential energy consumption for the month of July unde
 The Linear Regression model yielded a Mean Squared Error (MSE) of 0.566, offering a basic understanding of how factors like temperature and occupancy affect energy consumption. However, it underperformed at predicting higher energy usage values. In comparison, the Random Forest model achieved a lower MSE of 0.396, capturing nonlinear patterns more effectively and delivering stronger predictions for peak loads.
 
 Using the Random Forest model, a simulation of a +5°C warmer July showed that average household energy usage would rise from 925.26 kWh to 1059.57 kWh, reflecting a 14.5% increase, primarily driven by cooling demands. The analysis also identified cooling systems and plug loads as top contributors to total energy use. To address this, the project presents actionable recommendations including thermostat optimization, smart appliance usage, off-peak energy shifting, and improved home insulation—all aimed at reducing cost and demand in a warming environment.
+
+🔗 Live Demo  
+[Energy Demand Forecasting Shiny App](https://roshnimore.shinyapps.io/Energy_Demand_Forecasting/)
